@@ -6,10 +6,24 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+    <Grid RenderTransformOrigin="0.482,2.227">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="1" Grid.Column="1" Margin="10 40 10 40 ">Верхний предел</TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="1" Margin="10 40 10 40 ">Нижний предел</TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="1" Margin="10 40 10 40 ">Паша говноед</TextBlock>
+        <TextBox Name="tbUpperBound" Grid.Row="1" Grid.Column="2" >Вводи!!</TextBox>
+        <TextBox Name="tbUpperBound1" Grid.Row="2" Grid.Column="2">Вводи!!</TextBox>
     </Grid>
 </Window>
     
-    -tut chtota tipa polomano
-    xexexexexe
+   
