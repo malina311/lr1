@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -25,20 +26,27 @@ namespace WpfApp1
             InitializeComponent();
         }
 
-        private void btnCalculate_Click(object sender, RoutedEventArgs e)
+        public void btnCalculate_Click(object sender, RoutedEventArgs e)
         {
             CalculateIntegral();
         }
         public void CalculateIntegral()
         {
+            ICalculatorIntegral calculator = null;
             double upperBound = Convert.ToDouble(tbUpperBound.Text);
             double lowerBound = Convert.ToDouble(tbLowerBound.Text);
             int count = Convert.ToInt32(tbcount.Text);
             Func<double, double> func = x => 32 * x - Math.Log(2 * x) - 41;
-
+            /*if (calculator)
+            {
+                MessageBox.Show("Выберите метод интегрирования.");
+                return;
+            }*/
+            double result = calculator.Calculate(lowerBound, upperBound, count, func);
+            txtResult.Text = Convert.ToString(result);
         }
 
-        private void cmbBoxIntegralType_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        public void cmbBoxIntegralType_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             ComboBox comboBox = (ComboBox)sender;
             ICalculatorIntegral calculator = null;
@@ -54,7 +62,7 @@ namespace WpfApp1
                     return;
 
             }
-            txtResult.Text = calculator.Calculate;
+
         }
 
     }
