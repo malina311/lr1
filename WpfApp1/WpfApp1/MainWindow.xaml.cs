@@ -27,9 +27,35 @@ namespace WpfApp1
 
         private void btnCalculate_Click(object sender, RoutedEventArgs e)
         {
+            CalculateIntegral();
+        }
+        public void CalculateIntegral()
+        {
             double upperBound = Convert.ToDouble(tbUpperBound.Text);
             double lowerBound = Convert.ToDouble(tbLowerBound.Text);
+            int count = Convert.ToInt32(tbcount.Text);
+            Func<double, double> func = x => 32 * x - Math.Log(2 * x) - 41;
 
         }
+
+        private void cmbBoxIntegralType_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            ComboBox comboBox = (ComboBox)sender;
+            ICalculatorIntegral calculator = null;
+            switch (comboBox.SelectedIndex)
+            {
+                case 1:
+                    calculator = new TrapezoidCalculator();
+                    break;
+                case 2:
+                    calculator = new SimpsonCalculator();
+                    break;
+                default:
+                    return;
+
+            }
+            txtResult.Text = calculator.Calculate;
+        }
+
     }
 }

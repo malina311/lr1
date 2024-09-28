@@ -5,12 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Миронова Полина гр.3-47" Height="450" Width="800">
     <Grid RenderTransformOrigin="0.482,2.227">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20"/>
             <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="60"/>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="200"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="20"/>
@@ -19,15 +20,23 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
+            <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="1" Grid.Column="1" FontSize="20">Верхний предел</TextBlock>
         <TextBlock Grid.Row="2" Grid.Column="1" FontSize="20" >Нижний предел</TextBlock>
         <TextBlock Grid.Row="3" Grid.Column="1" FontSize="20">количество разбиений</TextBlock>
-        <TextBlock Grid.Row="4" Grid.Column="1" >Паша говноед</TextBlock>
+        <TextBlock Grid.Row="4" Grid.Column="1" FontSize="20" >Метод вычисления</TextBlock>
         <TextBox Name="tbUpperBound" Grid.Row="1" Grid.Column="2" FontSize="20"></TextBox>
         <TextBox Name="tbLowerBound" Grid.Row="2" Grid.Column="2" FontSize="20"></TextBox>
-        <TextBox Name="tbUpperBound2" Grid.Row="3" Grid.Column="2" FontSize="20"></TextBox>
+        <TextBlock Grid.Row="1" Grid.Column="3" FontSize="10">Паша говноед</TextBlock>
+        <TextBox Name="tbcount" Grid.Row="3" Grid.Column="2" FontSize="20"></TextBox>
         <Button Name="btnCalculate" Grid.Row="5" Grid.Column="1" FontSize="20" Grid.ColumnSpan="2" Height="44" VerticalAlignment="Top" Click="btnCalculate_Click">Посчитать</Button>
+        <ComboBox Name="cmbBoxIntegralType" Grid.Row="4" Grid.Column="2" SelectionChanged="cmbBoxIntegralType_SelectionChanged">
+            <ComboBoxItem>Метод трапеции</ComboBoxItem>
+            <ComboBoxItem>Метод Симпсона</ComboBoxItem>
+        </ComboBox>
+        <TextBlock Name="txtResult" Grid.Row="6" Grid.Column="1" Margin="10" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Место для ответа" Cursor="AppStarting"/>
+
     </Grid>
 </Window>
     
