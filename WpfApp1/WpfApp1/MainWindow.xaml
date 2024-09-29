@@ -24,13 +24,13 @@
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="1" Grid.Column="1" FontSize="20">Верхний предел</TextBlock>
         <TextBlock Grid.Row="2" Grid.Column="1" FontSize="20" >Нижний предел</TextBlock>
-        <TextBlock Grid.Row="3" Grid.Column="1" FontSize="20">количество разбиений</TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="1" FontSize="20">Количество разбиений</TextBlock>
         <TextBlock Grid.Row="4" Grid.Column="1" FontSize="20" >Метод вычисления</TextBlock>
         <TextBox Name="tbUpperBound" Grid.Row="1" Grid.Column="2" FontSize="20"></TextBox>
         <TextBox Name="tbLowerBound" Grid.Row="2" Grid.Column="2" FontSize="20"></TextBox>
-        <TextBlock Grid.Row="1" Grid.Column="3" FontSize="10">Паша говноед</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="3" FontSize="10">Паша говноед (плюсую)</TextBlock>
         <TextBox Name="tbcount" Grid.Row="3" Grid.Column="2" FontSize="20"></TextBox>
-        <Button Name="btnCalculate" Grid.Row="5" Grid.Column="1" FontSize="20" Grid.ColumnSpan="2" Height="44" VerticalAlignment="Top" Click="btnCalculate_Click">Посчитать</Button>
+        <Button Name="btnCalculate" Grid.Row="5" Grid.Column="1" FontSize="20" Grid.ColumnSpan="2" Height="44" VerticalAlignment="Top" Click="btnCalculate_Click" Background="PaleGreen">Посчитать</Button>
         <ComboBox Name="cmbBoxIntegralType" Grid.Row="4" Grid.Column="2" SelectionChanged="cmbBoxIntegralType_SelectionChanged">
             <ComboBoxItem>Метод трапеции</ComboBoxItem>
             <ComboBoxItem>Метод Симпсона</ComboBoxItem>
