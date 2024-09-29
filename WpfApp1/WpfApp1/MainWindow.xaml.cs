@@ -21,6 +21,7 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
+        private ICalculatorIntegral calculator;
         public MainWindow()
         {
             InitializeComponent();
@@ -32,7 +33,6 @@ namespace WpfApp1
         }
         public void CalculateIntegral()
         {
-            ICalculatorIntegral calculator = null;
             double upperBound = Convert.ToDouble(tbUpperBound.Text);
             double lowerBound = Convert.ToDouble(tbLowerBound.Text);
             int count = Convert.ToInt32(tbcount.Text);
@@ -49,13 +49,12 @@ namespace WpfApp1
         public void cmbBoxIntegralType_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             ComboBox comboBox = (ComboBox)sender;
-            ICalculatorIntegral calculator = null;
             switch (comboBox.SelectedIndex)
             {
-                case 1:
+                case 0:
                     calculator = new TrapezoidCalculator();
                     break;
-                case 2:
+                case 1:
                     calculator = new SimpsonCalculator();
                     break;
                 default:
