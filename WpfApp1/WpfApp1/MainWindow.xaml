@@ -22,6 +22,11 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
+        <Image Grid.Column="3" Grid.Row="3" Margin="38,9,-5,-41" Grid.RowSpan="4" >
+            <Image.Source>
+                <FormatConvertedBitmap Source="Resourses/babka.jpeg"/>
+            </Image.Source>
+        </Image>
         <TextBlock Grid.Row="1" Grid.Column="1" FontSize="20">Верхний предел</TextBlock>
         <TextBlock Grid.Row="2" Grid.Column="1" FontSize="20" >Нижний предел</TextBlock>
         <TextBlock Grid.Row="3" Grid.Column="1" FontSize="20">Количество разбиений</TextBlock>
