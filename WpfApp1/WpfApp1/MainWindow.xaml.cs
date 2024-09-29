@@ -37,11 +37,6 @@ namespace WpfApp1
             double lowerBound = Convert.ToDouble(tbLowerBound.Text);
             int count = Convert.ToInt32(tbcount.Text);
             Func<double, double> func = x => 32 * x - Math.Log(2 * x) - 41;
-            /*if (calculator)
-            {
-                MessageBox.Show("Выберите метод интегрирования.");
-                return;
-            }*/
             double result = calculator.Calculate(lowerBound, upperBound, count, func);
             txtResult.Text = Convert.ToString(result);
         }
