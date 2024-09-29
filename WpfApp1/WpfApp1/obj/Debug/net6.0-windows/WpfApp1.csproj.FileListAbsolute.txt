@@ -19,3 +19,23 @@ D:\lr1\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\refint\WpfApp1.dll
 D:\lr1\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.pdb
 D:\lr1\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.genruntimeconfig.cache
 D:\lr1\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\ref\WpfApp1.dll
+C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Malina\WpfApp1\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.exe
+C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Malina\WpfApp1\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.deps.json
+C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Malina\WpfApp1\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.runtimeconfig.json
+C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Malina\WpfApp1\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.dll
+C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Malina\WpfApp1\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.pdb
+C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Malina\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Malina\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Malina\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\WpfApp1_MarkupCompile.cache
+C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Malina\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\WpfApp1_MarkupCompile.lref
+C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Malina\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Malina\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.g.resources
+C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Malina\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Malina\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.AssemblyInfoInputs.cache
+C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Malina\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.AssemblyInfo.cs
+C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Malina\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Malina\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.dll
+C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Malina\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\refint\WpfApp1.dll
+C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Malina\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.pdb
+C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Malina\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.genruntimeconfig.cache
+C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Malina\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\ref\WpfApp1.dll
