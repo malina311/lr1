@@ -39,6 +39,7 @@
         <TextBox Name="tbUpperBound" Grid.Row="1" Grid.Column="2" FontSize="20"></TextBox>
         <TextBox Name="tbLowerBound" Grid.Row="2" Grid.Column="2" FontSize="20"></TextBox>
         <TextBlock Grid.Row="1" Grid.Column="3" FontSize="10">Паша говноед (плюсую)</TextBlock>
+        <TextBlock Grid.Column="3" Grid.Row="2">Вы че нелюди я не люблю есть говно</TextBlock>
         <TextBox Name="tbcount" Grid.Row="3" Grid.Column="2" FontSize="20"></TextBox>
         <Button Name="btnCalculate" Grid.Row="5" Grid.Column="1" FontSize="20" Grid.ColumnSpan="2" Height="44" VerticalAlignment="Top" Click="btnCalculate_Click" Background="PaleGreen">Посчитать</Button>
         <ComboBox Name="cmbBoxIntegralType" Grid.Row="4" Grid.Column="2" SelectionChanged="cmbBoxIntegralType_SelectionChanged">
